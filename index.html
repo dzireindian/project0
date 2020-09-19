@@ -3,56 +3,64 @@
 
 <head>
   <title>My Webpage</title>
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <a href="#bottom">Bottom</a>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <center>
-    <h1 class="title">
-      <font>My Personal Site</font>
-    </h1>
-    <img
-      src="https://drudqa.dm.files.1drv.com/y4mQwnEnKt8hit_hCcwNFQzQCz4l1WhTfxdBz3RXiDEkn7On1yknZGcM1l8aHyb8rgm13mdK4Oi3_oG_F7QDmZHvnrgW8-Ynd-WZ448bUKQNkEsC4UN7ZNhEutDs0nPeqXF5PYEjZMsw-Q9degmVXS8NJzO8AV2HMVc7veyx5GZiucyF_830uwA1nQJDdqPkSTCi7DGTwNJMPRu0zQr2GFlBQ?width=480&height=660&cropmode=none"
-      alt="rohith.jpg" width="100">
-    <blockquote>
-      K.Rohith
-      <br>rohithkalluru@gmail.com
-      <br>Contact No:+91 8686567431
-      <br>S.V University, Tirupati - 517505
-    </blockquote>
-  </center>
+
+  <div id="carouselExampleSlidesOnly" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <center>
+          <h1 class="title">
+            <font>My Personal Site</font>
+          </h1>
+          <img
+            src="https://drudqa.dm.files.1drv.com/y4mQwnEnKt8hit_hCcwNFQzQCz4l1WhTfxdBz3RXiDEkn7On1yknZGcM1l8aHyb8rgm13mdK4Oi3_oG_F7QDmZHvnrgW8-Ynd-WZ448bUKQNkEsC4UN7ZNhEutDs0nPeqXF5PYEjZMsw-Q9degmVXS8NJzO8AV2HMVc7veyx5GZiucyF_830uwA1nQJDdqPkSTCi7DGTwNJMPRu0zQr2GFlBQ?width=480&height=660&cropmode=none"
+            alt="rohith.jpg" width="100">
+          <blockquote>
+            K.Rohith
+            <br>rohithkalluru@gmail.com
+            <br>Contact No:+91 8686567431
+            <br>S.V University, Tirupati - 517505
+          </blockquote>
+        </center>
+      </div>
+    </div>
+  </div>
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">My Profile</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#qual">Qualifications <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Career Objective<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="It.html">IT Proficiency</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="activities.html">Co Curricular Activities</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="achieve.html">Achievements</a>
         </li>
       </ul>
     </div>
   </nav>
   <hr>
-  <p><b>Career Objective :</b></p>
+  <h5>Career Objective :</h5>
   <p>To work in a firm with a professional work driven environment where I can utilize and apply my knowledge, skills which would enable me as a fresh graduate to grow while fulfilling organizational goals.</p>
   <hr>
   <p>
-    <b>Education :</b>
+    <h5>Education :</h5>
   </p>
   <table id="qual" border="1px">
     <tr>
@@ -80,82 +88,6 @@
       <td>65.3%</td>
     </tr>
   </table>
-  <hr>
-  <div id="it">
-    <p><b>IT Proficiency :</b></p>
-    <ul>
-      <li>Microsoft Office Word</li>
-      <li>Microsoft Office Power Point</li>
-      <li>Internet Browsing</li>
-      <li><b>Coding skills :</b></li>
-      <table border="1px">
-        <tr>
-          <th>Programming Language</th>
-          <th>Proficiency</th>
-        </tr>
-        <tr>
-          <td>C</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>C++</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>Java</td>
-          <td>Intermediate</td>
-        </tr>
-      </table>
-      <li><b>Languages Known :</b></li>
-      <table border="1px">
-        <tr>
-          <th>Language</th>
-          <th>Proficiency</th>
-        </tr>
-        <tr>
-          <td>Telugu</td>
-          <td>Expert</td>
-        </tr>
-        <tr>
-          <td>Hindi</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>English</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>Tamil</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>Spanish</td>
-          <td>Beginner</td>
-        </tr>
-      </table>
-    </ul>
-  </div>
-  <hr>
-  <div class="act">
-    <p><b>CO-/EXTRA–CURRICULAR ACTIVITIES :</b></p>
-    <ul>
-      <li>Organizing Member in Sigmoid (Technical fest of E.C.E department) in our college</li>
-      <li>Representative member of ©British Council India in our college</li>
-      <li>Representative member of Institute of Language Management (ILM) in Keshava reddy concept school</li>
-    </ul>
-  </div>
-  <hr>
-  <div class="achieve">
-    <p><b>ACHIEVEMENTS :</b></p>
-    <ul>
-      <li>Published an article in an international Journal (IJERECE - Vol 4,Issue 3,March 2017), ISSN (Online) 2394-6849</li>
-      <li>Qualified in the Jio Digital Champions program and selected as an intern</li>
-      <li>Actively participated in Telecom Essentials Course offered by Ericsson India Global Services Pvt. Ltd</li>
-      <li>Actively participated in BSNL inplant training program</li>
-      <li>Completed a 2-day project based training program on 3D Printing conducted by Skyfi Labs Center, Banglore</li>
-    </ul>
-  </div>
-  <a href="#top">Top</a>
 </body>
 
 </html>
