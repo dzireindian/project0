@@ -1,0 +1,85 @@
+$head : #e3e1e1;
+$body : #6c696a;
+$bc : #aaaaaa;
+
+@media (max-width:500px) {
+	#qual, .tab{
+		display:none;
+	}
+}
+
+.head{
+	background-image: linear-gradient(#f1f3f8,#d6e0f0);
+}
+
+#qual{
+  border: solid 1px;
+  width: 100%;
+  border-color: black;
+	background-color: $head;
+  td{
+    border: solid 1px;
+    border-color: black;
+  }
+  th{
+		background-color: $body;
+    border: solid 1px;
+    border-color: black;
+  }
+  tr{
+    border: solid 1px;
+    border-color: black;
+  }
+}
+
+.back{
+	background: $bc;
+	background-color: $bc;
+}
+
+.tab {
+	@extend #qual;
+	font-style: normal;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: left;
+	border-collapse: collapse;
+  // td{
+  //   border: solid 1px;
+  //   border-color: black;
+  // }
+  // th{
+	// 	background-color: $body;
+  //   border: solid 1px;
+  //   border-color: black;
+  // }
+  // tr{
+  //   border: solid 1px;
+  //   border-color: black;
+  // }
+}
+
+// table [class=blueTable] {
+//
+//   border: 1px solid #1C6EA4;
+//   font-size: 13px
+//   background-color: $head;
+//   width: 100%;
+//   text-align: left;
+//   border-collapse: collapse
+//
+// 	td{
+// 		border: solid 1px;
+// 		border-color: black;
+// 	}
+// 	th{
+// 		background-color: $body;
+// 		border: solid 1px;
+// 		border-color: black;
+// 	}
+// 	tr{
+// 		border: solid 1px;
+// 		border-color: black;
+// 	}
+//
+// }
